@@ -1,8 +1,6 @@
 import {React} from "../../component";
 import {makeStyles} from "@material-ui/core/styles";
-
-
-
+import IdeaList from "../idea_create/IdeaList";
 
 
 
@@ -38,7 +36,9 @@ function Home(props) {
 
         <div>
         
-        
+
+        {/* <IdeaList></IdeaList> */}
+       
        
         </div>
 
