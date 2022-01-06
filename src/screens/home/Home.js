@@ -37,8 +37,7 @@ function Home(props) {
         <div>
         
 
-        {/* <IdeaList></IdeaList> */}
-       
+{/* <IdeaList></IdeaList>    */}    
        
         </div>
 

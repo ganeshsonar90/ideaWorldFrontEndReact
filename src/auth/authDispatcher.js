@@ -63,6 +63,23 @@ export const doCreateIdea = (ideaRequest) => {
 }
 
 
+export const getIdealistApi = (userId) => {
+
+    //doctors?speciality=CARDIOLOGIST
+        const url = environment.baseUrl + '/users?userId=' + userId+'ideas';
+        // setAuthToken(token)
+    
+        return http.get(url).pipe(
+            map((response) => {
+                return response;
+    
+            })
+        );
+    
+    
+    }
+
+
 
 
 
